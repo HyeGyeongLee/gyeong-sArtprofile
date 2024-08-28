@@ -7,7 +7,7 @@
         </div> -->
         <ul role="list" class="mx-auto mt-0 grid max-w-2xl grid-cols-2 gap-x-1 gap-y-1 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <li v-for="person in people" :key="person.name">
-            <img class="w-[100%] h-full rounded-lg" :src="person.imageUrl" alt="" />
+            <img class="w-[100%] h-full" :src="person.imageUrl" alt="" />
           </li>
         </ul>
       </div>

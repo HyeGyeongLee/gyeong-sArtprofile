@@ -3,7 +3,8 @@
       <div class="mx-auto grid max-w-7xl">
         <div class="max-w-4xl mb-12">
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">감정의 색채</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600 break-keep text-justify">어린 시절부터 예술의 세계에 빠져든 나는 5살 때 처음으로 붓을 잡았습니다. 그 순간부터 그림은 단순한 취미를 넘어 내 삶의 중요한 부분이 되었습니다. 시간이 흐르면서 나의 열정은 더욱 깊어졌고, 이제는 그림이 내 영혼을 표현하는 언어가 되었습니다.</p>
+          <p class="mt-6 text-lg font-bold">전시</p>
+          <p class="mt-3 text-lg leading-8 text-gray-600 break-keep text-justify">성수 뎁센트2 - 2024</p>
         </div>
         <ul role="list" class="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
           <li v-for="person in people" :key="person.name" class="flex flex-col gap-10 pt-12 sm:flex-row">
