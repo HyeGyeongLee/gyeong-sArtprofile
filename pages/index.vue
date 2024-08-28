@@ -5,7 +5,7 @@
           <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"></h2>
           <p class="mt-6 text-lg leading-8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
         </div> -->
-        <ul role="list" class="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-1 gap-y-1 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <ul role="list" class="mx-auto mt-0 grid max-w-2xl grid-cols-2 gap-x-1 gap-y-1 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <li v-for="person in people" :key="person.name">
             <img class="w-[100%] h-full rounded-lg" :src="person.imageUrl" alt="" />
           </li>
